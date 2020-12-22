@@ -83,5 +83,5 @@ def solve_nonogram(filename):
     return [[z[i][j].x for j in range(len(z[i]))] for i in range(len(z))]
 
 if __name__ == "__main__":
-    solution = solve_nonogram("hard.no")
-    print_nonogram(solution, "hard")
+    solution = solve_nonogram("tiny.no")
+    print_nonogram(solution, "tiny")
